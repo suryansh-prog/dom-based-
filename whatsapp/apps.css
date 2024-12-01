@@ -1,0 +1,99 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.chat{
+    width: 28%;
+    height: 70%;
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    transform: translate(130%,20%);
+    overflow: auto;
+}
+.upper{
+    width: 28%;
+    height: 70%;
+    background-image: url('https://media.istockphoto.com/id/690445882/vector/social-media-blue-seamless-pattern.jpg?s=612x612&w=0&k=20&c=bashqfz8-1B2zRqj2GbOmQUupsWQyaIyzPeajhmRaWY=');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    left: 36.4%;
+    top: 14%;
+    display: none;
+    z-index: 999;
+    position: absolute;
+    overflow: hidden;
+}
+.top{
+    width: 100%;
+    height: 13%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.top img{
+    width: 75px;
+    height: 55px;
+    margin: 5px 10px;
+    border-radius: 50%;
+}
+.top i{
+    margin-left: 10px;
+    font-size: 30px;
+}
+.batee{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 16%;
+}
+.send{
+    display: flex;
+    /* display: inline-block; */
+    justify-content: flex-end;
+    background-color: green;
+    /* width: 50%; */
+    padding-right: 10px;
+}
+.recieve{
+    padding-left: 10px;
+}
+.overlay{
+    width: 100%;
+    height: 17%;
+    background-color: transparent;
+    position: absolute;
+}
+.chatting{
+    width: 100%;
+    height: 17%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    overflow: auto;
+}
+.chatting img{
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+}

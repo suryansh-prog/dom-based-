@@ -1,0 +1,98 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    /* width: 100%;
+    height: 100%; */
+    background-color: black;
+
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    scale: 0;
+    border-radius: 50%;
+    color: white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* padding: 10px; */
+    
+}
+.innn h3{
+    scale: 0;
+    font-size: 15px;
+    /* margin: 45% 30%; */
+}
+.inner{
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    border-radius: 50%;
+    scale: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    /* overflow: hidden; */
+}
+.innn{
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+    scale: 0;
+    border-radius: 50%;
+    gap: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2 .card{
+    width: 20%;
+    height: 30%;
+    background-color: burlywood;
+    padding: 15px 20px;
+} 
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.page2 .box2{
+    width: 20%;
+    height: 45%;
+    background-color: lightgreen;
+
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
